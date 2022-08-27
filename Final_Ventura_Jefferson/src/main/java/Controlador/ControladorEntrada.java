@@ -15,8 +15,16 @@ public class ControladorEntrada {
         
         this.vista.btnRegistro.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
-                ControladorRegistroPasajero controlador = new ControladorRegistroPasajero (new RegistroPasajero(), Repositorio.pasajero);
-            }
+                ControladorRegistroPasajero controlador = new ControladorRegistroPasajero (Repositorio.pasajero, new RegistroPasajero());
+                controlador.iniciar();
+                vista.dispose();
+            }   
+            
         });
+    }
+    
+    public void iniciar() {
+        this.vista.setLocationRelativeTo(null);
+        this.vista.setVisible(true);
     }
 }

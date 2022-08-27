@@ -7,5 +7,5 @@ import Modelo.*;
  * @author jvrui
  */
 public class Repositorio {
-    public static PasajeroArreglo pasajero = new PasajeroArreglo (2);
+    public static PasajeroArreglo pasajero = new PasajeroArreglo (5);
 }

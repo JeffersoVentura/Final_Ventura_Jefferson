@@ -37,10 +37,15 @@ public class ControladorRegistroPasajero {
                     
                     ControladorEntrada controlador = new ControladorEntrada(new Entrada());
                     
-                    
+                    vista.dispose();
                 }
             }
         );
         
+        
+    }
+    public void iniciar() {
+        this.vista.setLocationRelativeTo(null);
+        this.vista.setVisible(true);
     }
 }
