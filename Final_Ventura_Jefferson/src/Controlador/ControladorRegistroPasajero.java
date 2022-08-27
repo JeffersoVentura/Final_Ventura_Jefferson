@@ -35,7 +35,7 @@ public class ControladorRegistroPasajero {
         this.vista.btnCancelar.addActionListener( new ActionListener() {
                 public void actionPerformed(ActionEvent e){
                     
-                    ControladorEntrada controlador = new ControladorEntrada(new Entrada());
+                    ControladorEntrada controlador = new ControladorEntrada(new Usuario("admin", "123"), new Entrada());
                     
                     vista.dispose();
                 }
