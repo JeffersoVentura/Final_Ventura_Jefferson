@@ -68,7 +68,7 @@ public class RegistroPasajero extends javax.swing.JFrame {
         jPanel2.add(jTNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 130, 130, -1));
         jPanel2.add(jTApellido, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 170, 130, -1));
 
-        jCTipoDocumento.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jCTipoDocumento.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccione", "DNI", "Carnet de Extranjería", "RUC" }));
         jPanel2.add(jCTipoDocumento, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 50, 130, -1));
 
         btnRegistrar.setText("Registrar");
