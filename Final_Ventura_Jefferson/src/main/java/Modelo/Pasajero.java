@@ -11,12 +11,12 @@ public class Pasajero {
     private String nroDocumento;
     private String nombre;
     private String apellido;
-    private Date fechaNacimiento;
+    private String fechaNacimiento;
     
     private static int cont = 0;
     private int codigo;
 
-    public Pasajero(String tipoDocumento, String nroDocumento, String nombre, String apellido, Date fechaNacimiento) {
+    public Pasajero(String tipoDocumento, String nroDocumento, String nombre, String apellido, String fechaNacimiento) {
         this.codigo = cont;
         cont++;
         this.tipoDocumento = tipoDocumento;
@@ -58,11 +58,11 @@ public class Pasajero {
         this.apellido = apellido;
     }
 
-    public Date getFechaNacimiento() {
+    public String getFechaNacimiento() {
         return fechaNacimiento;
     }
 
-    public void setFechaNacimiento(Date fechaNacimiento) {
+    public void setFechaNacimiento(String fechaNacimiento) {
         this.fechaNacimiento = fechaNacimiento;
     }
 

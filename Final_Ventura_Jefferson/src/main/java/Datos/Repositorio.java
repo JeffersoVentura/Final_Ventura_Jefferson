@@ -1,13 +1,11 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Datos;
+
+import Modelo.*;
 
 /**
  *
  * @author jvrui
  */
 public class Repositorio {
-    
+    public static PasajeroArreglo pasajero = new PasajeroArreglo (2);
 }
