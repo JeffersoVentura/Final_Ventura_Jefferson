@@ -59,25 +59,17 @@ public class RegistroPasajero extends javax.swing.JFrame {
         jLabel5.setText("Apellido:");
         jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 190, 160, -1));
 
-        jCTipoDocumento.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jCTipoDocumento.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccionar", "DNI", "Carné", "RUC" }));
         jPanel1.add(jCTipoDocumento, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 70, 130, -1));
-
-        jTNacimiento.setText("jTextField1");
         jPanel1.add(jTNacimiento, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 230, 130, -1));
-
-        jTNroDocumento.setText("jTextField1");
         jPanel1.add(jTNroDocumento, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 110, 130, -1));
-
-        jTNombre.setText("jTextField1");
         jPanel1.add(jTNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 150, 130, -1));
-
-        jTApellido.setText("jTextField1");
         jPanel1.add(jTApellido, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 190, 130, -1));
 
-        btnCancelar.setText("jButton1");
+        btnCancelar.setText("Cancelar");
         jPanel1.add(btnCancelar, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 280, 180, 60));
 
-        btnRegistrar.setText("jButton1");
+        btnRegistrar.setText("Registrar");
         jPanel1.add(btnRegistrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 280, 180, 60));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());

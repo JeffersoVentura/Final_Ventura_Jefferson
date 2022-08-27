@@ -11,7 +11,7 @@ public class ControladorRegistroPasajero {
     private RegistroPasajero vista;
     private PasajeroArreglo modelo;
     
-    public ControladorRegistroPasajero(PasajeroArreglo modelo, RegistroPasajero vista){
+    public ControladorRegistroPasajero(RegistroPasajero vista, PasajeroArreglo modelo){
         this.modelo = modelo;
         this.vista = vista;
         
